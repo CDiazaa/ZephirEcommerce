@@ -117,3 +117,25 @@ body {
   text-align: justify;
   padding: 0 20px;
  }
+
+.footerContainer{
+  width: 100 vw;
+  height: 10vh;
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .footer {
+  color: black;
+  padding: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .containerCarrito {
+height: 100vh;
+ }
+ .gitIcon {
+  color: black;
+ }

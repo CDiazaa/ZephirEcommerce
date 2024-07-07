@@ -6,6 +6,7 @@ import Category from "../pages/Category";
 import Cart from "../pages/Cart";
 
 import NavBarComponent from "../components/NavBarComponent/NavBarComponent";
+import FooterComponent from "../components/FooterComponent/FooterComponent";
 
 const MainRouter = () => {
 
@@ -19,6 +20,7 @@ const MainRouter = () => {
         <Route path="/category/:id" element={<Category />} />
         <Route path="/cart/" element={<Cart />} />
       </Routes>
+      <FooterComponent />
     </BrowserRouter>
   );
 };
